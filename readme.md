@@ -119,7 +119,7 @@ this.fireForSure(); // Будет стрелять только когда пр�
 Самый простой бот, который передвигается в случайном направлении и постоянно стреляет:
 ```js
 var moves = ['left', 'up', 'right', 'down'];
-var method = moves[Math.foor(Math.random() * 4)];
+var method = moves[Math.floor(Math.random() * 4)];
 
 this[method]();
 this.fire();
